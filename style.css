@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Figtree', sans-serif;
+}
+
+body{
+  background-color:  hsl(47, 88%, 63%);
+  position: relative;
+  top:25vh;
+  
+}
+.publish{
+  font-size: .9rem;
+}
+h1{
+  font-size: 1.5rem;
+  margin:10px 0;
+  font-weight: 800;
+  
+}
+
+.container{
+  border: 1px solid hsl(0, 0%, 50%);
+  width: 25rem;
+  height: 32rem;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 8px 8px hsl(0, 0%, 7%);
+
+
+}
+
+.first-img img{
+object-fit: fill;
+width: 100%;
+height: 100%;
+border-radius: 10px;
+margin-bottom: 20px;
+
+}
+
+.learning{
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text{
+  font-size: 1rem;
+  color: hsl(0, 0%, 50%);
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: 800;
+}
+
+.avatar{
+  width: 2.5rem;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+
+}
+
+@media(max-width:375px){
+.container{
+  height: 28rem;
+  width: 20rem;
+}
+
+h1{
+  font-size: 1.3rem;
+}
+.text{
+  font-size: .85rem;
+}
+}
